@@ -7,6 +7,7 @@ interface AdminRouteProps {
   children: ReactNode
 }
 
+
 const AdminRoute = ({ children }: AdminRouteProps) => {
   useEffect(() => {
     const user = getUser()
